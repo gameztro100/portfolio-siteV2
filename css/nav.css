@@ -225,7 +225,7 @@
 
 @media (max-height: 450px) {
   .side-nav {
-    padding-top: 10px;
+    padding-top: 50px;
   }
 
   .side-nav a {
