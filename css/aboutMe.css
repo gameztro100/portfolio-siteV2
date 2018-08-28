@@ -1,0 +1,154 @@
+#aboutMe {
+  padding: 30px;
+  background: #2b303a;
+  height: 300px;
+  line-height: 35px;
+}
+
+#aboutMe p {
+  color: #d64933;
+  font-size: 1.3rem;
+  padding-top: 30px;
+  margin-left: 170px;
+  padding-bottom: 30px;
+  width: 80%;
+  transition: all 1s ease-in-out;
+  font-style: italic;
+}
+
+#aboutMe p:hover {
+  transform: scale(0.9, 1);
+}
+
+#aboutMe img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 50px;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  shape-outside: circle(50%);
+  transition: all 1s ease-in-out;
+  transform: scale(0.9);
+}
+
+#aboutMe img:hover {
+  transform: scale(1.05, 1.05);
+}
+
+@media (max-width: 1310px) {
+  #aboutMe p {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #aboutMe p {
+    padding-top: 5px;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  #aboutMe {
+    padding: 10px;
+    height: 550px;
+  }
+
+  #aboutMe p {
+    font-size: 1.05rem;
+    line-height: 22px;
+    margin-left: 90px;
+  }
+
+  #aboutMe img {
+    float: none;
+    transform: scale(0.7);
+    margin-left: 35%;
+    padding-top: 10px;
+  }
+
+  #aboutMe img:hover {
+    transform: scale(0.8, 0.8);
+  }
+}
+
+@media (max-width: 725px) {
+  #aboutMe {
+    height: 600px;
+  }
+
+  #aboutMe img {
+    margin-left: 30%;
+  }
+
+  #aboutMe p {
+    margin-left: 70px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 630px) {
+  #aboutMe img {
+    margin-left: 25%;
+    shape-outside: circle(45%);
+  }
+
+  #aboutMe p {
+    font-size: 1.1rem;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #aboutMe {
+    padding: 2px;
+    height: 700px;
+  }
+
+  #aboutMe img {
+    margin-left: 16%;
+    padding-top: 0px;
+    margin-top: -10px;
+  }
+
+  #aboutMe p {
+    margin-left: 40px;
+    font-size: 1.1rem;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  #aboutMe {
+    height: 800px;
+  }
+
+  #aboutMe p {
+    margin-left: 25px;
+  }
+
+  #aboutMe img {
+    padding-top: 0;
+    margin: 0;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 300px) {
+  #aboutMe {
+    width: 100%;
+    height: 850px;
+    margin-right: 0;
+    padding: 0;
+    padding: 0;
+  }
+
+  #aboutMe img {
+    padding: 0;
+    margin: 0;
+    margin-left: 6%;
+  }
+}
