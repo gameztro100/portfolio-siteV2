@@ -1,0 +1,90 @@
+#contactForm {
+  background: #2b303a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #d64933;
+}
+
+.container i {
+  padding-right: 10px;
+}
+
+.container label {
+  color: #d64933;
+  font-size: 1.4rem;
+  margin-left: 2%;
+}
+
+.container input,
+textarea {
+  color: #2b303a;
+  font-size: 1.1rem;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 4px solid #2b303a;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#subButton {
+  margin-left: 30%;
+  width: 40%;
+  background-color: #d64933;
+  color: #2b303a;
+  padding: 12px 20px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+#subButton:hover {
+  background: #a13525;
+  color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #2b303a;
+  padding: 20px;
+}
+
+@media (max-width: 550px) {
+  #subButton {
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  .container h2 {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+  }
+
+  .container label {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #subButton {
+    width: 100px;
+    margin-left: 30%;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+  }
+}
