@@ -11,7 +11,7 @@ body {
 }
 
 #open {
-  background: url(city.jpg);
+  background: url(../city.jpg);
   background-size: 100% 700px;
   height: 700px;
   transition: all 1s ease-in-out;
