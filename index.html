@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dylan Diegano - Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/aboutMe.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/skills.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/form.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/footer.css">
+</head>
+
+<body>
+
+    <nav id="navigation">
+
+        <ul id="main-nav">
+            <li class="link"><a href="#">HOME</a></li>
+            <li class="link"><a href="#aboutMe">ABOUT</a></li>
+            <li class="link"><a href="#skills">SKILLS</a></li>
+            <li class="link"><a href="#contactForm">CONTACT</a></li>
+
+            <li class="socialA social-pad"><a href="https://github.com/gameztro100"><i class="fab fa-github"></i></a></li>
+            <li class="socialA"><a href="https://www.linkedin.com/in/dylan-diegano-5b4b0316a/"><i class="fab fa-linkedin"></i></a></li>
+            <li class="socialA"><a href="https://codepen.io/gameztro_100/#"><i class="fab fa-codepen"></i></a></li>
+            <li class="socialA"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+
+    </nav>
+
+    <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+            <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#524148" stroke-width="5" />
+                <path d="M0,14 30,14" stroke="#524148" stroke-width="5" />
+                <path d="M0,23 30,23" stroke="#524148" stroke-width="5" />
+            </svg>
+        </a>
+    </span>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href id="padTop2"="#">HOME</a>
+        <a href="#aboutMe">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#contactForm">CONTACT</a>
+
+        <a href="https://github.com/gameztro100"><i id="padTop" class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dylan-diegano-5b4b0316a/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://codepen.io/gameztro_100/#"><i class="fab fa-codepen"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <section id="open">
+
+        <h1 id="myName">Dylan Diegano</h1>
+        <p id="myInfo">A Front-End Web Developer, Game Developer Hobbyist and Avid Programmer...</p>
+
+    </section>
+
+    <section id="aboutMe">
+
+        <img src="img/porttrait2.jpg" width=250px " height="250px " alt="portrait-image ">
+        <p>"Hello and welcome to my website. I currently live in sunny Scotland and have been programming for around 5
+            years both as a hobby and for education. My main skills are in front-end web development but i am heavily invested
+            in game development (mostly 2d) as a hobby and possible future career. My Github is linked should you wish to see
+            my hobbyist projects and see the code i 've used. Also the reason i have built this website is to give employers
+            an easy to view showcase of my skills and interest aside from my CV, i feel you can get a much better display
+            of a programmers skills through a project rather than a CV. So i hope you enjoy my site and there is a contact
+            form and social media links if you wish to.. um well... contact me."</p>
+
+    </section>
+
+    <section id="skills">
+
+        <h2><i class="fas fa-code"></i>Skills</h2>
+
+        <div class="push gameJs">
+            <h3><i class="fab fa-html5"></i>HTML5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+        </div>
+
+        <div class="gameJs">
+            <h3><i class="fab fa-css3-alt"></i>CSS3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+        </div>
+
+        <div class="gameJs">
+            <h3><i class="fab fa-js-square"></i>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+        </div>
+
+        <div class="push gameJs">
+            <h3>Javascript Game Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+        </div>
+
+        <div class="gameJs">
+            <h3>Phaser Game Framework</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+        </div>
+
+        <div class="gameJs">
+            <h3>Unity Game Engine</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+        </div>
+
+    </section>
+
+
+    <section id="contactForm">
+
+        <div class="container">
+
+            <h2><i class="fas fa-file-signature"></i>Contact Me</h2>
+
+            <form method="POST" action="php/email.php">
+
+                <label id="firstName" for="fname">First Name</label>
+                <input type="text" id="fName" name="firstname" placeholder="Your First Name..." aria-required="true">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lName" name="lastname" placeholder="Your Last Name...">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your Email...">
+
+                <label for="subject">Subject</label>
+                <textarea type="text" id="subject" name="subject" placeholder="Ask away..." maxlength="500"></textarea>
+
+                <input id="subButton" type="submit" action="mailto:diegano07@hotmail.com" value="Submit">
+
+            </form>
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <h4><i class="far fa-copyright"></i>Copyright 2018</h4>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
