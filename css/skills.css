@@ -1,0 +1,213 @@
+#skills {
+  background: #c53f2a;
+  height: 500px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+  color: #21252c;
+}
+
+h2 i {
+  padding-right: 10px;
+}
+
+.gameJs {
+  height: 100px;
+  background: #21252c;
+  width: 300px;
+  padding: 30px;
+  margin-left: 65px;
+  margin-bottom: 50px;
+  border-radius: 2%;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 6px 6px 4px 4px black;
+}
+
+.gameJs h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ddd;
+  opacity: 1.5;
+}
+
+.gameJs .fab {
+  margin-right: 10px;
+}
+
+.gameJs p {
+  text-align: center;
+  color: white;
+}
+
+.gameJs:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 1450px) {
+  #skills {
+    height: 550px;
+  }
+
+  .gameJs {
+    margin-left: 100px;
+    transform: scale(1.1);
+    margin-top: 30px;
+  }
+
+  .gameJs:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media (min-width: 1750px) {
+  #skills .push {
+    margin-left: 250px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .gameJs {
+    margin-left: 150px;
+    transform: scale(1.2);
+  }
+
+  .gameJs:hover {
+    transform: scale(1.3);
+  }
+}
+
+@media (min-width: 1800px) {
+  #skills {
+    height: 600px;
+  }
+
+  .gameJs {
+    margin-left: 170px;
+    transform: scale(1.3);
+  }
+
+  .gameJs:hover {
+    transform: scale(1.4);
+  }
+}
+
+@media (max-width: 1300px) {
+  .gameJs {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .gameJs {
+    margin-left: 20px;
+    padding: 20px;
+    transform: scale(1);
+  }
+
+  .gameJs:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 1100px) {
+  #skills {
+    height: 780px;
+  }
+
+  .gameJs {
+    margin-left: 75px;
+    padding: 40px;
+    transform: scale(0.95);
+  }
+}
+
+@media (max-width: 950px) {
+  .gameJs {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 880px) {
+  #skills {
+    height: 675px;
+  }
+
+  .gameJs {
+    margin-left: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  #skills {
+    height: 700px;
+    padding-left: 10px;
+  }
+
+  .gameJs {
+    transform: scale(0.9);
+    margin-left: 20px;
+    width: 275px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .gameJs p {
+    font-weight: bolder;
+  }
+
+  .gameJs:hover {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 690px) {
+  #skills {
+    height: 1150px;
+  }
+
+  .gameJs {
+    margin-left: 70px;
+    width: 70%;
+    height: 120px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #skills {
+    height: 1250px;
+  }
+
+  .gameJs {
+    margin-left: 40px;
+    height: 135px;
+  }
+}
+
+@media (max-width: 400px) {
+  #skills {
+    height: 1300px;
+  }
+
+  .gameJs {
+    font-size: 1rem;
+    margin-left: 30px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 320px) {
+  #skills {
+    height: 1500px;
+  }
+
+  .gameJs {
+    margin-left: 20px;
+    height: 170px;
+  }
+}
